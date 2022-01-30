@@ -23,25 +23,28 @@
    display: block;
 }
 .arrow {
-   border: solid black;
-   border-width: 0 3px 3px 0;
+   border: inset rgb(0, 0, 0);
+   border-width: 0 2px 2px 0;
    display: inline-block;
    padding: 9px;
 }
 .right {
    transform: rotate(-45deg);
    -webkit-transform: rotate(-45deg);
+   margin-left: -3rem;
 }
  
 .left {
    transform: rotate(135deg);
    -webkit-transform: rotate(135deg);
+   margin-right: -3rem;
 }
 
 button.next, .prev {
    background: none;
    border: none;
 }
-button.next, .prev:hover {
+button.next:hover, .prev:hover {
    cursor: pointer;
+   opacity: 0.3;
 }
