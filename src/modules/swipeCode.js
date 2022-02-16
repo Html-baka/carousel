@@ -4,9 +4,9 @@ let touchStartVar;
 let touchEndVar;
 
 const whereToSwipe = () => {
-   if(touchStartVar - touchEndVar < -80){
+   if(touchStartVar - touchEndVar < -60){
       prevBtn()
-   } else if (touchStartVar - touchEndVar > 80) {
+   } else if (touchStartVar - touchEndVar > 60) {
       nextBtn();
    }
 }

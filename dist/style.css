@@ -32,11 +32,11 @@
    opacity: 0.3;
 }
 .prev {
-   margin-right: -45px;
+   margin-right: -46px;
    z-index: 1;
 }
 .next {
-   margin-left: -45px;
+   margin-left: -46px;
    z-index: 1;
 }
 .fa-angle-left, .fa-angle-right {
