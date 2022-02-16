@@ -19,7 +19,5 @@ for( let i = 0; i < dotArr.length; i++ ) {
 }
 //touch code
 const container = document.querySelector('.item_wrapper');
-
-
 container.addEventListener('touchstart', touchStart)
 container.addEventListener('touchend', touchEnd)

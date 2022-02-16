@@ -17,4 +17,5 @@ const touchEnd = (event) => {
    touchEndVar = event.changedTouches[0].screenX;
    whereToSwipe();
 }
+
 export {whereToSwipe as default, touchStart, touchEnd}
