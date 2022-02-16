@@ -36,12 +36,12 @@
    z-index: 1;
 }
 .next {
-   margin-left: -40px;
+   margin-left: -40gfitpx;
    z-index: 1;
 }
 .fa-angle-left, .fa-angle-right {
    font-size: 3.5rem;
-   color: aliceblue;
+   color: rgba(240, 248, 255, 0.986);
 }
 .dot_wrapper {
    margin-top: 1rem;
