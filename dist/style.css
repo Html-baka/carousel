@@ -34,6 +34,7 @@
    cursor: pointer;
    opacity: 0.3;
 }
+
 .prev {
    margin-right: -40px;
    z-index: 1;
@@ -42,14 +43,12 @@
    margin-left: -40px;
    z-index: 1;
 }
-@media screen and (max-with: 596px){
+@media screen and (max-width: 596px){
    .prev {
       margin-right: -50px;
-      z-index: 1;
    }
    .next {
       margin-left: -50px;
-      z-index: 1;
    }
 }
 .fa-angle-left, .fa-angle-right {
