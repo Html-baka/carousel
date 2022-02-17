@@ -4,7 +4,10 @@
    flex-wrap: nowrap;
    align-content: flex-end;
    justify-content: center;
-   align-items: center
+   align-items: center;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   height: 400px;
 }
 
 .carousel_item img{
@@ -32,12 +35,22 @@
    opacity: 0.3;
 }
 .prev {
-   margin-right: -50px;
+   margin-right: -40px;
    z-index: 1;
 }
 .next {
-   margin-left: -50px;
+   margin-left: -40px;
    z-index: 1;
+}
+@media screen and (max-with: 596px){
+   .prev {
+      margin-right: -50px;
+      z-index: 1;
+   }
+   .next {
+      margin-left: -50px;
+      z-index: 1;
+   }
 }
 .fa-angle-left, .fa-angle-right {
    font-size: 3.5rem;
